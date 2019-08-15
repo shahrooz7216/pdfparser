@@ -1,7 +1,7 @@
 # PdfParser #
 
 This Fork of Smalot PdfParser is used for those who just use this package to parse a pdf and get its pages count,
-I have made this fork because some pds throw a memory leak error and stops the whole process, so I have commented the problematic part of code(/src/Font.php lines 140~231) that is saving every unicode character of pdf in a array named table,
+I have made this fork because parsing some unicode pdfs throw a memory leak error and stops the whole converting process, so I have commented the problematic part of code(/src/Font.php lines 140~231) that is saving every unicode character of pdf in a array named table,
 Also remember that I am just using this package to parse my pdf for its integrity and getting the page count of my pdf files.
 
 Pdf Parser, a standalone PHP library, provides various tools to extract data from a PDF file.
