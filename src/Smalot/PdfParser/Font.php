@@ -137,6 +137,7 @@ class Font extends PDFObject
             'to'   => 1,
         );
 
+// Commented by Sharhooz7216 (Shahrooz7216@gmail.com) - forked from Smalot/pdfparser
 //        if ($this->has('ToUnicode')) {
 //            $content = $this->get('ToUnicode')->getContent();
 //            $matches = array();
